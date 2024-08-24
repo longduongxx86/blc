@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "des",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RollOver.sol": "String"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RollOver.sol": {
+			"keccak256": "0xd14a60d08325f44c684b4eebceb35b5138261fb1b6a4ac3228205d2dd3eafb8c",
+			"urls": [
+				"bzz-raw://0011c32369022eb4ee33a635319b656b9fbd6575120a1e142c687a019f52087e",
+				"dweb:/ipfs/QmeGyscVoV4fvqxwYRnSE37KZcg2yctBcKGUhLEerc9D1Y"
+			]
+		}
+	},
+	"version": 1
+}
